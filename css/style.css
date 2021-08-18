@@ -1,0 +1,193 @@
+/**
+Main
+**/
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.section {
+  text-align: center;
+}
+
+#avatarimg {
+  border-radius: 50%;
+}
+
+/* Animation */
+
+.typewriter {
+  font-family: Courier, monospace;
+  display: inline-block;
+}
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  animation: typing 2s steps(22, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 4.7vw;
+  border-right: 1vw solid green;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from {
+    width: 0%
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: green;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+body {
+  background: #2E282A;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #fff;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #db3a34;
+}
+
+/**
+Skill Bar
+**/
+
+.bar {
+  width: 90%;
+  height: 35px;
+  background: #1a1a1a;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1, .my-skills {
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
+.bar-1, .title {
+  text-align: left;
+  color: white;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: #ffffff;
+  ;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 18px;
+  color: #888284;
+  ;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: white;
+}
+
+/**
+Technologie icons
+**/
+
+.brands {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1rem;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.brands__item {
+  background: #eee;
+}
+
+.brands__item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.brands__item img {
+  width: 130px;
+  height: 75px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+/**
+Social Media Icon Bar
+**/
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Social Bar  colors*/
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.github {
+  background: grey;
+}
+
+.twitter {
+  background: #55ACEE;
+}
+
+.xing {
+  background: green;
+}
+
+.linkedin {
+  background: #007bb5;
+}
